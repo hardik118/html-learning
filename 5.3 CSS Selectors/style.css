@@ -5,3 +5,19 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+.red-text{
+  color: red;
+  text-align: center;
+}
+.black-text{
+  color: black;
+  text-align: center;
+}
+.green-text{
+  color: green;
+  text-align: center;
+}
+.blue-text{
+  color: blue;
+  text-align: center;
+}
