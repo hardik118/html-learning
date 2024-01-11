@@ -21,3 +21,13 @@ ol {
   color: blue;
   text-align: center;
 }
+#main{
+  color: coral;
+  text-align: right;
+}
+li[draggable]{
+  color: blueviolet;
+}
+*{
+  color: aqua;
+}
