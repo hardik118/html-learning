@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: 100vh;
+    margin: 50px 50px 100px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log{
+    color: grey;
+    font-weight: bolder;
+    background-color: white;
+    width: 40px;
+    text-align: center;
+}
+.card{
+    width: 50%;
+}
+.picture{
+    float: right;
+    width: 250px;
+    margin-top: 50px;
+}
+.head{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
