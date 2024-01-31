@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chekout </title>
+    <style>
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 400px 900px  ;
+            
+    
+    }
+    .items{
+        background-color:rgb(7, 54, 7);
+      
+    }
+    .checkout{
+        background-color :white;  
+
+        
+    }
+    .row{
+        display: inline-flex;
+        flex-direction: row;
+        color: white;
+        
+    }
+    .row>*{
+        width: 300px ;
+        height: 100px;
+    }
+    h2{
+        margin-top: 10%;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;  
+        font-size: 40px;
+        color:#313d4a;
+      }
+    .img{
+        float: right;
+        border: 2px solid grey;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .text{
+        margin-left: 230px;
+        font-family: 'Rubik', sans-serif; 
+        font-size: 15px;
+        font-weight: bold;
+         
+
+    }
+    .enter{
+        margin-left: 230px;
+        width: 300px;
+        height: 30px;
+        border: 2px solid grey;
+        border-radius: 10px;
+    }
+    .check{
+        margin-left: 400px;
+    }
+    #enter1{
+        margin-left: 150px;
+        width: 40px;
+        border: 2px solid grey;
+        border-radius: 10px;
+
+    }
+    #enter2{
+        margin-left: 230px;
+        width: 40px;
+        height: 30px;
+        margin-bottom: 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+    }
+   
+    .but{
+        width: 120px;
+        height: 35px;
+        border-radius: 9px;
+        border:1px  grey;
+        margin-left: 400px;
+        margin-top: 10px;
+        background-color: lightsalmon;
+        color: white;
+        font-size: 15px;
+        font-family: 'Rubik', sans-serif;  
+
+    }
+        
+    
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items"> </div>
+        <div class="checkout" >
+            <div class="box">
+                <h2> Credit Check Out</h2>
+                <div class="row">
+                    <div style="background-color:white;">
+                        <div class="img">
+                            <img src="./download.png" alt="visa" width="50px" height="40px">
+                        </div>
+                        
+                    </div>
+                    <div style="background-color:white;">
+                        <div class="img">
+                            <img src="./indias-first-corporate-credit-card-on-rupay-network-launched-upi-transactions-lounge-access-and-more.jpg" alt="rupay" width="50px">
+                        </div>
+                    </div>
+                    <div style="background-color: white;">
+                    <div  class="img">
+                        <img src="./MClogo-c823e495c5cf455c89ddfb0e17fc7978.jpg" alt="mastercard" width="50px">
+                    </div></div>
+                </div>
+                <h3 class="text">Card Name </h3>
+                <input class="enter" type="text" >
+                <h3 class="text">Card Number</h3>
+                <input  class="enter"  type="text" >
+                <pre class="text">Exp                                                                                            cvc?</pre>
+                <input  id="enter2"  type="text "> <input  id="enter1"   class="enter" type="text"><input id="enter1" class="enter" type="text">
+                <br>
+                <input class="check" type="checkbox" id="myCheckbox" name="myCheckbox">
+                
+<label style=" font-family: 'Rubik', sans-serif;  
+"     for="myCheckbox">Save  This Card </label>
+<br>
+<button class="but"   type="submit"> continue to pay </button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
