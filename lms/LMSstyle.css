@@ -1,0 +1,395 @@
+.nav{
+    background-color:#7077A1;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+body{
+    background-color:#BFCFE7 ;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  padding: 5px;
+    width: 1200px;
+    gap: 350px;
+}
+#signup{
+    display: flex;
+}
+#backsvg{
+    display: flex;
+    flex-direction: column;
+width: 20px;
+margin-bottom: 1px;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    
+    
+  }
+.leftmarginnav{
+    display: flex;
+justify-content: start;}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+#marginbotSvg{
+    display: flex;
+}
+
+.leftnav{
+    display: flex;
+    margin-left: 7px;
+}
+#nav1{
+    margin-left: -100px;
+}
+#nav2{
+    margin-left: -80px;
+}
+.rightnav{
+    display: flex;
+    
+    
+    flex-direction: row;
+}
+
+.body1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr   ;
+    grid-template-rows: 1fr 1fr ;
+    background-color: white;
+    gap: 9px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 1000px;
+    height: 500px;
+    margin-left: 40PX;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+}
+.BOX{
+    background-color: lightgrey;
+    border-radius: 10px;
+    
+}
+.GENRATEPAPER{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.QUESTIONBANK{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.RESULTS{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.ADDQUESTIONS{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.GRADETEST{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.DISCUSSIONFORM{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+H3{
+
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.addquestions{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+    
+
+    
+align-items: center;  
+justify-content: center;  
+
+}
+#addquestionsnew{
+    width: 80%;
+    border-radius: 10px;
+}
+.newh3{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.marginbot{
+    margin-bottom: 10px;
+}
+.addingQ{
+    width: 80%;
+    color: white;
+}
+.newadd{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    text-align: baseline;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.takeupQ{
+width: 300px;
+margin-left: 30px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid grey;
+}
+.addDes{
+    width:93%;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 110px;
+    border-radius: 10px;
+    border: 1px solid grey; 
+}
+.takeupPaper{
+    width: 190px;
+    margin-top: 30px;
+margin-left: 50px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid grey;
+}
+.genratemoreQ{
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: grey;
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+align-items: center;
+justify-content: center;
+align-content: center;
+margin-top: 60px;
+}
+.discussionBox{
+
+
+        display: flex;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: 400;
+        color: grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+
+}
+#commentBox{
+height: 60px;
+}
+#commentBoxButton{
+    display: flex;
+    flex-direction: column;
+    float: right;
+margin-top: 0px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.svgDropDown{
+    color: black;
+    background-color: black;
+}
+#adjustSvg{
+    display: flex;
+    float: right;
+    margin-right: 5px;
+}
+.Scroll{
+    overflow: auto;
+    max-height: 200px;
+
+}
+
+        #addquestionsnew1 {
+            overflow-y: scroll;
+            overflow-x: hidden; /* Apply vertical scrollbar */
+            max-height: 400px; /* Set maximum height for scroll bar to appear */
+        
+                width: 80%;
+                border-radius: 10px;
+        
+        }
+
+        /* Style for webkit browsers (Chrome, Safari, etc.) */
+        #addquestionsnew1::-webkit-scrollbar {
+            width: 15px; /* Set width of the scrollbar */
+        }
+
+        #addquestionsnew1::-webkit-scrollbar-thumb {
+            background-color: grey; /* Set color of the thumb */
+            border-radius: 5px; /* Set border radius of the thumb */
+        }
+
+        /* Style for other browsers */
+        #addquestionsnew1 {
+            scrollbar-width: thin; /* Set width of the scrollbar */
+            scrollbar-color: #888 transparent; /* Set color of the thumb and track */
+        }
+   
+        .StudentReport{
+
+            display: flex;
+            height: 600px;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 20px;
+            font-weight: 400;
+            color: grey;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        .StudentBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #EEEDEB;
+            color: grey;
+            height: 60px;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+        #marginTop{
+            margin-top: 10px;
+        }
+        .resultAnalysis{
+            display: flex;
+            height: 60px;
+justify-content: center;            
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: 400;
+            color: grey;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+        }
+        .RESULT{
+            display: flex;
+            margin-top: 45px;
+            height: 200px;
+            width: 200px;
+            background-color: grey;
+            margin-left: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+        }
+       
+        .performance{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 40px;
+
+        }
+        .performance2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 300px;
+            width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 40px;
+
+        }
+    #rC1{
+        background-color: #FFCF96;
+    }
+    #rC2{
+        background-color: #C5E898;
+    }
+    #rC3{
+        background-color: #BFCFE7;
+
+    }
+    #rC4{
+        background-color: #CAA6A6;
+
+    }
+    #color1{
+        background-color: #FBF9F1;
+
+    
+    }
+    #color2{
+      background-color:   #EEF5FF;
+
+    } #color3{
+        background-color: #F5EEE6;
+
+    } #color4{
+        background-color: #B3A398;
+
+    } #color5{
+        background-color: #E78895;
+
+    } #color6{
+        background-color: #C7C8CC;
+
+    }
+
+
+
+
+    
+    
+
+  
+
+    
