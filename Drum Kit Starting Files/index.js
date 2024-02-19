@@ -2,7 +2,20 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
 
   var buttonHTml= this.innerHTML;
+  makesound(buttonHTml);
 
+
+   
+
+});
+}
+document.addEventListener("keypress",function(event){
+
+makesound(event.key)
+});
+
+
+function makesound(key){
     switch(buttonHTml){
         case "w":
             var audio1 =  new Audio("sounds/crash.mp3");
@@ -37,6 +50,4 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
 
     }
    
-
-});
 }
