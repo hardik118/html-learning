@@ -3,6 +3,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
 
   var buttonHTml= this.innerHTML;
   makesound(buttonHTml);
+  animation(buttonHTml);
 
 
    
@@ -12,11 +13,13 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++){
 document.addEventListener("keypress",function(event){
 
 makesound(event.key)
+animation(event.key);
+
 });
 
 
 function makesound(key){
-    switch(buttonHTml){
+    switch(key){
         case "w":
             var audio1 =  new Audio("sounds/crash.mp3");
             audio1.play();
@@ -50,4 +53,11 @@ function makesound(key){
 
     }
    
+}
+function animation(cur_key){
+   var but_active= document.querySelector("."+cur_key);
+   but_active.classList.add("pressed");
+setTimeout (function(){
+    but_active.classList.remove("pressed");
+},100);
 }

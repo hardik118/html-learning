@@ -1,4 +1,5 @@
 .nav{
+    display: flex;
     background-color:#7077A1;
     width: 100%;
     height: 50px;
@@ -12,8 +13,9 @@ body{
     flex-direction: row;
     justify-content: start;
   padding: 5px;
-    width: 1200px;
-    gap: 350px;
+    width: 40;
+    gap: 80%;
+    justify-content: space-between;
 }
 #signup{
     display: flex;
@@ -29,13 +31,14 @@ li {
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 150px;
+    width: 120px;
     
     
   }
 .leftmarginnav{
     display: flex;
-justify-content: start;}
+
+}
 a{
     text-decoration: none;
     color: white;
@@ -57,9 +60,10 @@ a{
 }
 .rightnav{
     display: flex;
+    justify-content: end;
+    width: 250px;
     
     
-    flex-direction: row;
 }
 
 .body1{
@@ -67,9 +71,10 @@ a{
     grid-template-columns: 1fr 1fr 1fr   ;
     grid-template-rows: 1fr 1fr ;
     background-color: white;
-    gap: 9px;
-    padding: 5px;
+    gap: 20px;
+    padding: 15px;
     border-radius: 10px;
+
     height: 1000px;
     height: 500px;
     margin-left: 40PX;
@@ -118,14 +123,21 @@ H3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
 .addquestions{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    gap: 30px;
-    
+    gap: 30px;   
+align-items: center;  
+justify-content: center;  
 
-    
+}
+.addquestionsContainer{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    gap: 30px;   
 align-items: center;  
 justify-content: center;  
 
@@ -137,9 +149,7 @@ justify-content: center;
 .newh3{
     display: flex;
     height: 200px;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     font-size: 20px;
     font-weight: 400;
     color: grey;
@@ -152,7 +162,9 @@ justify-content: center;
     width: 80%;
     color: white;
 }
+
 .newadd{
+    background-color: #C5E898;
     display: flex;
     height: 200px;
     flex-direction: column;
@@ -163,13 +175,53 @@ justify-content: center;
     color: grey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 }
+.newaddgen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 120px;
+    background-color: #C5E898;
+  border-radius: 10px;
+
+ 
+ 
+  
+   
+}
+
+
+input::placeholder{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-size: 15px;
+}
+.addDes::placeholder{
+    font-size: 20px;
+    color: lightgray;
+    text-align: center;
+}
 .takeupQ{
 width: 300px;
 margin-left: 30px;
 height: 30px;
 border-radius: 10px;
 border: 1px solid grey;
+
 }
+.takeupQbut{
+    width: 300px;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray ;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    
+    }
 .addDes{
     width:93%;
     margin-top: 20px;
@@ -177,6 +229,8 @@ border: 1px solid grey;
     height: 110px;
     border-radius: 10px;
     border: 1px solid grey; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .takeupPaper{
     width: 190px;
@@ -185,16 +239,30 @@ margin-left: 50px;
 height: 30px;
 border-radius: 10px;
 border: 1px solid grey;
+background-color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:  grey;
+font-size: 15px;
+}
+.takeupPapernew{
+    width: 190px;
+height: 30px;
+border-radius: 10px;
+border: 2px solid white;
+background-color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:  grey;
+font-size: 15px;
 }
 .genratemoreQ{
     width: 190px;
     height: 40px;
     border-radius: 10px;
-    border: 1px solid grey;
+    border: 1px solid gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: grey;
     font-weight: bold;
-    background-color: grey;
+    background-color: white;
 
 }
 .button{
@@ -355,35 +423,48 @@ justify-content: center;
         background-color: #C5E898;
     }
     #rC3{
-        background-color: #BFCFE7;
+        background-color: #F6F7C4;
 
     }
     #rC4{
-        background-color: #CAA6A6;
+        background-color: #F6F7C4;
 
     }
     #color1{
-        background-color: #FBF9F1;
+        background-color: #FFCACC;
 
     
     }
     #color2{
-      background-color:   #EEF5FF;
+      background-color:   #C5E898;
 
     } #color3{
-        background-color: #F5EEE6;
+        background-color: #FFFC9B;
 
     } #color4{
-        background-color: #B3A398;
+        background-color: #DCBFFF;
 
     } #color5{
-        background-color: #E78895;
+        background-color: #9ED2BE;
+       
 
     } #color6{
-        background-color: #C7C8CC;
+        background-color: #F0F3F3;
+       
+    }
+    #color1a{
+        background-color: #FFCACC;
+    }
+    .addbox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 95%;
+    height: 180px;
+    background-color: #FFCACC;
+    border-radius: 10px;
 
     }
-
 
 
 

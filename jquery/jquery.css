@@ -1,0 +1,12 @@
+.h1style{
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rebeccapurple;
+
+}
+.h1sizing{
+    width: 700px;
+    height: 200px;
+    background-color: gray;
+
+}
