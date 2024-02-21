@@ -149,7 +149,7 @@ justify-content: center;
 .newh3{
     display: flex;
     height: 200px;
-    align-items: center;
+    width: 900px;
     font-size: 20px;
     font-weight: 400;
     color: grey;
@@ -164,8 +164,7 @@ justify-content: center;
 }
 
 .newadd{
-    background-color: #C5E898;
-    display: flex;
+        display: flex;
     height: 200px;
     flex-direction: column;
     text-align: baseline;
@@ -179,15 +178,20 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 80%;
+    width: 1100px;
     height: 120px;
     background-color: #C5E898;
   border-radius: 10px;
-
- 
- 
-  
-   
+  padding: 10px;
+}
+#genBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+width: 1200px;
+border-radius:10px ;
 }
 
 
@@ -248,7 +252,7 @@ font-size: 15px;
     width: 190px;
 height: 30px;
 border-radius: 10px;
-border: 2px solid white;
+border: 1px solid gray;
 background-color: white;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color:  grey;
@@ -279,9 +283,9 @@ margin-top: 60px;
 
         display: flex;
         height: 300px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        align-items: start;
+        float: left;
+        margin-left: 5px;
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -292,7 +296,7 @@ margin-top: 60px;
 
 }
 #commentBox{
-height: 60px;
+height: 80px;
 }
 #commentBoxButton{
     display: flex;
@@ -465,6 +469,53 @@ justify-content: center;
     border-radius: 10px;
 
     }
+.lineinput{
+   
+    border-style:hidden ;
+    background-color:#f9dc5c;
+    height: 70px;
+    width: 60rem;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.submitbut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 70px;
+    margin-left:9px ;
+    border-style: hidden;
+    border-radius: 20px;
+    background-color: #6d6875;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#testdesign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   background-color: #b298dc;
+   border-radius: 20px;
+   border: 1px solid white;
+
+   
+}
+.testbox1a{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
 
 
 
