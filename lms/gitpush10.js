@@ -1,1 +1,1 @@
-https://sites.google.com/lpu.co.in/summertraining2026;
+/*https://sites.google.com/lpu.co.in/summertraining2026;*/
